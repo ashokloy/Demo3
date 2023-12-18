@@ -2,3 +2,10 @@ server:
   port: 8082
 test:
   value: myTest
+
+spring:
+  data:
+    mongodb:
+      database: localhost
+      username: root
+      password: root
